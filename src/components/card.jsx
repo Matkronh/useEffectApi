@@ -1,7 +1,7 @@
 import { useEffect, useState } from "react"
 import styles from "./card.module.css"
 
-let clickNumber = 5
+let clickNumber = 1
 
 async function getData(url, callback){
     const response = await fetch(url)
@@ -42,6 +42,7 @@ function Card(url){
             <button onClick={() => {
                 clickNumber++
                 console.log(clickNumber)
+                getData(`https://dummyjson.com/posts/?offset=1&limit=${clickNumber}`, setData)
             }} className={styles.click}>Clicky</button>
         </div>
         
