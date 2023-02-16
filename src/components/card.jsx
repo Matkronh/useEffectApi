@@ -1,7 +1,7 @@
 import { useEffect, useState } from "react"
 import styles from "./card.module.css"
 
-let clickNumber = 1
+let clickNumber = 2
 
 async function getData(url, callback){
     const response = await fetch(url)
