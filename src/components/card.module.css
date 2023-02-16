@@ -1,0 +1,56 @@
+.app{
+    background-color: #4E7992;
+    display: flex;
+    width: 100%;
+    height:100%;
+    justify-content: center;
+}
+
+.card{
+    background-color: white;
+    max-width: 400px;
+    max-height: 100%;
+    padding: 20px 50px;
+    margin-top: 10px;
+    border-radius: 15px;
+}
+
+.title{
+    font-size: 20px;
+    font-weight: 600;
+}
+
+.boddytext{
+    font-size: 20px;
+    font-weight: 100;
+}
+
+.idtext{
+    font-size: 10px;
+}
+
+.tagtext{
+    font-size: 14px;
+    background-color: #AACAE7;
+    margin-right: 20px;
+    padding: 6px 14px;
+    border-radius: 25px;
+}
+
+.click{
+    padding: 3px 62px;
+    font-size: 20px;
+    width: 200px;
+    height: 60px;
+    border-radius: 10px;
+    background-color:#AACAE7;
+    margin-top: 20px;
+    text-align: center;
+    /* margin: auto; */
+}
+
+.outercard{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
